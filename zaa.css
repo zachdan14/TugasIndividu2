@@ -1,234 +1,230 @@
-body {
-    height: 100%;
-    width: 100%;
-}
-
-header {
-    background-color: gray;
-    width: 300px;
-    transform: translateX(455%);
-    margin: 10px;
-    display: flex;
-}
-
-marquee {
-    background-color: gray;
-}
-
-h1 {
-    text-align: center;
-    display: inline-block;
-    margin:0 auto;
+html {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: blanchedalmond;
-    background-image: url(https://images.template.net/95613/blue-aesthetic-background-k2k0c.jpg);
+    background-color: #939394;
     background-size: cover;
-    margin: 20px;
 }
 
-.zazaa {
+.jadwal {
     align-items: center;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    width: 620px;
+    width: 720px;
     height: 160px;
     text-align: center;
 }
 
-#dataTabel {
+.judul {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto; 
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+    font-size: xx-large;
+    height: 75px;
+    text-align: center;
+}
+
+.tuger {
+    color: black;
+    font-size: 30px
+}
+
+.daftar {
+    border-radius: 30px;
+    height: 175 ;
+    width: 275px;
+    background-color: rgb(86, 91, 92);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display:inline-block;
+    border: 1.5px solid brown;
+    font-size: 20px;    
+    text-align: left;
+}
+
+.dov { 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1ef;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.piket {
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.piket1 {
+    border-radius: 30px;
+    height: 175 ;
+    width: 275px;
+    background-color: rgb(99, 99, 98);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display:inline-block;
+    border: 1.5px solid brown;
+    font-size: 20px;    
+    text-align: left;
+}
+
+
+.piket1 ul li {
+    text-decoration: none;
+}
+
+td {
+    padding:7px ;
+}
+
+.piket div{
+    display: inline-block;
+}
+
+#jadwal {
     display: none;
 }
 
-.pentol {
-    font-size: xx-large;
-}
-.Daftar {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    height: 2900px;
-    background-color: rgba(128, 245, 235, 0.178);
-    border: 1px solid black;
-    display: block;
-    padding: 10px;
-    text-align: center;
-}
-#siswa {
+.container {
     width: 100%;
-    height: auto;
-}
-#siswa h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-#siswa div {
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: auto;
-    background-color: rgba(73, 219, 230, 0.747);
-    border: 1.5px solid black;
-    display: inline-table;
-}
-#siswa div ul li {
-    text-align: left;
-}
-#piket {
-    width: 100%;
-    height: auto;
-}
-#piket h2 {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 33px;
-}
-#piket div {
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: auto;
-    background-color: rgba(73, 219, 230, 0.747);
-    border: 1.5px solid black;
-    display: inline-table;
-}
-#piket div p {
-    text-align: center;
-    text-decoration: underline;
-}
-#piket div ul li {
-    text-align: left;
-}
-.tobat {
-    margin-left: auto;
-    margin-right: auto;
-    width: 450px;
-    padding-right: 50px;
-    margin-top: 50px;
-}
-
-.tobat1 {
-    display: inline;
-}
-
-.maksiat1 {
+    height: 7cm;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.foto {
+    margin-top: 50px;
+    padding: 100px;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+hr {
+    margin-top: 50px;
+    width: 100%;
+}
+.container1 {
+    width: 100%;
+    height: 7cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.video {
+    height: 100%;
+    padding: 100px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+}
+
+audio {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    display: flex;
+}
+
+
+@media (max-width: 620px) {
+
+.jadwal {
+    width: 100%;
+}
+
+.daftar {
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    display: block;
 }
 
-.maksiat {
-    margin-right:auto;
+.foto {
+    width: 100%;
+    object-fit: cover;
+}
+
+.video {
+    width: 100%;
     margin-left: auto;
-    height: 100%;
-    width: 450px;
-    padding-right: 50px;
+    margin-right: auto;
+}
+
+.jadwal{
+    width: 100%;    
+}
+.judul {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+}
+
+  /* TABLET */
+
+@media (max-width: 1080px) {
+
+    .jadwal {
+    width: 100%;
+    }
+
+    .container1 {
+    display: block;
+    margin-top: 250px;
+    }
+
+    .container {
+    display: block;
+    padding-bottom: 10px;
+    }
+
+    .foto {
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .video {
     margin-top: 50px;
-}
-
-.button {
-    font-size: xx-large;
-    
-}
-
-
-@media (max-width: 620px)
-{
-    .zazaa {
-        width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
     }
 
-
-    .judul {
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        text-align: center;
+.footer {
+    margin-top: 450px;
     }
-
-    .tobat {
-        width: 100%;
-
-    }
-
-    .maksiat1 {
-        width: 100%;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    .maksiat {
-        height: 100%;
-        width: 100%;
-    }
-
-    
-    .Daftar {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 95%;
-        height: 3100px;
-        background-color: rgba(128, 245, 235, 0.178);
-        border: 1px solid black;
-        display: block;
-        padding: 10px;
-        text-align: center;
-        }
-
-        header {
-            background-color: gray;
-            width: 300px;
-            transform: translateX(0%);
-            margin: 10px;
-        }
-}
-
-@media (max-width: 768px) and (max-width: 1023px)
-{
-    .zazaa {
-        width: 620px;
-    }
-
-    .judul {
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        text-align: center;
-    }
-
-    .tobat {
-        width: 100%;
-
-    }
-
-    .maksiat1 {
-        width: 100%;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    .maksiat {
-        height: 100%;
-        width: 100%;
-    } 
-
-    
-
-header {
-    background-color: gray;
-    width: 300px;
-    transform: translateX(70%);
-    margin: 10px;
-}
-    
 }
